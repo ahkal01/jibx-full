@@ -1,0 +1,93 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1335977814273
+Build-Jdk: 1.6.0_29
+Built-By: don
+Bundle-Description: JiBX tools code
+Bundle-DocURL: http://www.jibx.org
+Bundle-License: http://jibx.sourceforge.net/jibx-license.html
+Bundle-ManifestVersion: 2
+Bundle-Name: jibx-tools - JiBX tools
+Bundle-SymbolicName: jibx-tools
+Bundle-Vendor: jibx.org
+Bundle-Version: 1.2.4.SNAPSHOT
+Class-Path: bcel.jar jibx-run.jar jibx-bind.jar jibx-extras.jarjibx-sche
+ ma.jar xpp3.jar stax-api.jar wstx-asl.jar joda-time.jar log4j.jarqdox.j
+ ar org.eclipse.core.contenttype.jar org.eclipse.core.jobs.jarorg.eclips
+ e.core.resources.jar org.eclipse.core.runtime.jarorg.eclipse.equinox.co
+ mmon.jar org.eclipse.equinox.preferences.jarorg.eclipse.jdt.core.jar or
+ g.eclipse.jdt.core.manipulation.jar org.eclipse.osgi.jarorg.eclipse.tex
+ t.jar
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.jibx.schema.codegen;uses:="org.eclipse.jdt.core.dom,
+ org.jibx.schema.elements,org.jibx.schema,org.jibx.schema.codegen.custom
+ ,org.jibx.runtime,org.apache.log4j,javax.xml.transform.dom,org.w3c.dom,
+ org.jibx.util,org.jibx.schema.codegen.extend,org.jibx.binding.classes,o
+ rg.jibx.binding.model,javax.xml.transform,javax.xml.transform.stream,or
+ g.jibx.schema.support,org.jibx.schema.validation,org.jibx.custom,org.ji
+ bx.runtime.impl,org.xmlpull.v1,org.jibx.extras,org.eclipse.text.edits,o
+ rg.eclipse.jface.text,org.eclipse.jdt.core,org.eclipse.jdt.core.formatt
+ er";version="1.2.4.SNAPSHOT",org.jibx.schema.codegen.extend;uses:="org.
+ eclipse.jdt.core.dom,org.jibx.binding.model,org.jibx.schema.codegen,org
+ .eclipse.core.runtime,org.jibx.util";version="1.2.4.SNAPSHOT",org.jibx.
+ schema.codegen.custom;uses:="org.apache.log4j,org.jibx.schema.elements,
+ org.jibx.runtime,org.jibx.util,org.jibx.schema.validation,org.jibx.runt
+ ime.impl,org.jibx.schema.support,org.jibx.schema,org.jibx.schema.types,
+ org.jibx.schema.codegen.extend,org.jibx.schema.codegen,org.jibx.custom.
+ classes,org.jibx.binding.util,org.jibx.custom,org.jibx.binding.model";v
+ ersion="1.2.4.SNAPSHOT",org.jibx.schema.generator;uses:="org.jibx.bindi
+ ng.model,org.jibx.util,org.jibx.runtime,org.jibx.custom.classes,javax.x
+ ml.parsers,org.w3c.dom,org.jibx.schema.elements,org.jibx.schema,org.jib
+ x.schema.types,org.jibx.schema.validation,org.jibx.binding,org.jibx.cus
+ tom";version="1.2.4.SNAPSHOT",org.jibx.binding.generator;uses:="org.jib
+ x.util,org.jibx.runtime,org.jibx.binding.model,org.jibx.schema.generato
+ r,org.jibx.custom.classes,org.jibx.custom,org.jibx.schema.validation";v
+ ersion="1.2.4.SNAPSHOT",org.jibx.custom;uses:="org.jibx.runtime";versio
+ n="1.2.4.SNAPSHOT",org.jibx.custom.classes;uses:="org.jibx.custom,org.j
+ ibx.util,org.jibx.runtime,org.jibx.runtime.impl,org.jibx.schema.validat
+ ion,org.jibx.binding.classes,org.jibx.binding,com.thoughtworks.qdox.mod
+ el,org.jibx.binding.model,com.thoughtworks.qdox,org.jibx.ws.wsdl.model,
+ org.jibx.schema.elements,org.jibx.schema.attributes,org.jibx.ws.wsdl.to
+ ols.custom,org.jibx.schema.types,org.apache.bcel.generic";version="1.2.
+ 4.SNAPSHOT",org.jibx.ws.wsdl.tools.custom;uses:="org.jibx.util,org.jibx
+ .runtime,org.jibx.runtime.impl,org.jibx.custom.classes,org.jibx.custom,
+ org.apache.log4j,org.jibx.ws.wsdl.tools,org.jibx.schema.generator";vers
+ ion="1.2.4.SNAPSHOT",org.jibx.ws.wsdl;uses:="org.jibx.runtime,org.jibx.
+ runtime.impl";version="1.2.4.SNAPSHOT",org.jibx.ws.wsdl.model;uses:="or
+ g.jibx.runtime,org.jibx.runtime.impl,org.jibx.custom.classes,org.jibx.u
+ til,org.jibx.binding.model,org.jibx.schema.validation";version="1.2.4.S
+ NAPSHOT",org.jibx.ws.wsdl.tools;uses:="org.jibx.util,org.jibx.schema,or
+ g.jibx.schema.elements,org.jibx.runtime,org.jibx.binding.generator,org.
+ apache.log4j,org.jibx.ws.wsdl.tools.custom,org.jibx.schema.types,org.w3
+ c.dom,org.jibx.ws.wsdl.model,org.jibx.schema.validation,org.jibx.bindin
+ g.model,org.jibx.schema.generator,org.jibx.custom.classes,org.jibx.cust
+ om,org.jibx.runtime.impl";version="1.2.4.SNAPSHOT"
+Import-Package: com.thoughtworks.qdox;resolution:=optional,com.thoughtwo
+ rks.qdox.model;resolution:=optional,javax.xml.parsers;resolution:=optio
+ nal,javax.xml.transform;resolution:=optional,javax.xml.transform.dom;re
+ solution:=optional,javax.xml.transform.stream;resolution:=optional,org.
+ apache.bcel.generic;resolution:=optional,org.apache.log4j;resolution:=o
+ ptional,org.eclipse.core.runtime;resolution:=optional;version="[3.4,4)"
+ ,org.eclipse.jdt.core;resolution:=optional,org.eclipse.jdt.core.dom;res
+ olution:=optional,org.eclipse.jdt.core.formatter;resolution:=optional,o
+ rg.eclipse.jface.text;text=split;resolution:=optional,org.eclipse.text.
+ edits;resolution:=optional,org.jibx.binding;resolution:=optional;versio
+ n="[1.2,2)",org.jibx.binding.classes;resolution:=optional;version="[1.2
+ ,2)",org.jibx.binding.model;resolution:=optional;version="[1.2,2)",org.
+ jibx.binding.util;resolution:=optional;version="[1.2,2)",org.jibx.extra
+ s;resolution:=optional;version="[1.2,2)",org.jibx.runtime;resolution:=o
+ ptional;version="[1.2,2)",org.jibx.runtime.impl;resolution:=optional;ve
+ rsion="[1.2,2)",org.jibx.schema;resolution:=optional;version="[1.2,2)",
+ org.jibx.schema.attributes;resolution:=optional;version="[1.2,2)",org.j
+ ibx.schema.elements;resolution:=optional;version="[1.2,2)",org.jibx.sch
+ ema.support;resolution:=optional;version="[1.2,2)",org.jibx.schema.type
+ s;resolution:=optional;version="[1.2,2)",org.jibx.schema.validation;res
+ olution:=optional;version="[1.2,2)",org.jibx.util;resolution:=optional;
+ version="[1.2,2)",org.w3c.dom;resolution:=optional,org.xmlpull.v1;resol
+ ution:=optional
+JibxRepositoryId: sonatype-nexus-snapshots
+JibxRepositoryLocation: http://oss.sonatype.org/content/repositories/sna
+ pshots/
+Main-Class: org.jibx.ws.wsdl.tools.Jibx2Wsdl
+OBRRepositoryIndex: NONE
+OBRRepositoryIndexURL: http://www.jibx.org/NONE
+Tool: Bnd-1.50.0

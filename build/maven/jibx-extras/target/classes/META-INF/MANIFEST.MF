@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1335977767483
+Build-Jdk: 1.6.0_29
+Built-By: don
+Bundle-Description: JiBX extras code
+Bundle-DocURL: http://www.jibx.org
+Bundle-License: http://jibx.sourceforge.net/jibx-license.html
+Bundle-ManifestVersion: 2
+Bundle-Name: jibx-extras - JiBX extras
+Bundle-SymbolicName: jibx-extras
+Bundle-Vendor: jibx.org
+Bundle-Version: 1.2.4.SNAPSHOT
+Class-Path: jibx-run.jar xpp3.jar stax-api.jar wstx-asl.jar
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.jibx.extras;uses:="org.jibx.runtime,org.jibx.runtime
+ .impl,org.xmlpull.v1,org.dom4j,org.w3c.dom,javax.xml.parsers,org.jdom";
+ version="1.2.4.SNAPSHOT"
+Import-Package: javax.xml.parsers;resolution:=optional,org.dom4j;resolut
+ ion:=optional,org.jdom;resolution:=optional,org.jibx.runtime;resolution
+ :=optional;version="[1.2,2)",org.jibx.runtime.impl;resolution:=optional
+ ;version="[1.2,2)",org.w3c.dom;resolution:=optional,org.xmlpull.v1;reso
+ lution:=optional
+JibxRepositoryId: sonatype-nexus-snapshots
+JibxRepositoryLocation: http://oss.sonatype.org/content/repositories/sna
+ pshots/
+Main-Class: org.jibx.extras.TestRoundtrip
+OBRRepositoryIndex: NONE
+OBRRepositoryIndexURL: http://www.jibx.org/NONE
+Tool: Bnd-1.50.0

@@ -1,0 +1,46 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1335977774387
+Build-Jdk: 1.6.0_29
+Built-By: don
+Bundle-Description: JiBX schema code
+Bundle-DocURL: http://www.jibx.org
+Bundle-License: http://jibx.sourceforge.net/jibx-license.html
+Bundle-ManifestVersion: 2
+Bundle-Name: jibx-schema - JiBX schema
+Bundle-SymbolicName: jibx-schema
+Bundle-Vendor: jibx.org
+Bundle-Version: 1.2.4.SNAPSHOT
+Class-Path: jibx-run.jar jibx-bind.jar xpp3.jar stax-api.jar wstx-asl.ja
+ r
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.jibx.schema;uses:="org.jibx.schema.types,org.jibx.sc
+ hema.validation,org.jibx.runtime,org.jibx.schema.elements,org.jibx.sche
+ ma.support,org.jibx.binding.util,org.jibx.util,org.apache.log4j";versio
+ n="1.2.4.SNAPSHOT",org.jibx.schema.elements;uses:="org.jibx.schema.vali
+ dation,org.jibx.runtime,org.jibx.runtime.impl,org.jibx.schema.types,org
+ .jibx.util,org.jibx.schema.support,org.w3c.dom,org.jibx.schema,org.jibx
+ .schema.attributes,org.jibx.binding.model,org.apache.log4j";version="1.
+ 2.4.SNAPSHOT",org.jibx.schema.validation;uses:="org.jibx.schema.element
+ s,org.jibx.schema,org.jibx.runtime,org.jibx.runtime.impl,org.apache.log
+ 4j,org.jibx.util,org.xmlpull.v1,org.jibx.extras";version="1.2.4.SNAPSHO
+ T",org.jibx.schema.attributes;uses:="org.jibx.schema.validation,org.jib
+ x.schema.elements,org.jibx.schema,org.jibx.util,org.jibx.runtime,org.ji
+ bx.runtime.impl,org.jibx.schema.support,org.jibx.schema.types";version=
+ "1.2.4.SNAPSHOT",org.jibx.schema.support;uses:="org.jibx.schema.validat
+ ion,org.jibx.runtime,org.jibx.schema.elements,org.jibx.runtime.impl,org
+ .jibx.schema";version="1.2.4.SNAPSHOT",org.jibx.schema.types;uses:="org
+ .jibx.schema.validation,org.jibx.runtime,org.jibx.runtime.impl";version
+ ="1.2.4.SNAPSHOT"
+Import-Package: org.apache.log4j;resolution:=optional,org.jibx.binding.m
+ odel;resolution:=optional;version="[1.2,2)",org.jibx.binding.util;resol
+ ution:=optional;version="[1.2,2)",org.jibx.extras;resolution:=optional;
+ version="[1.2,2)",org.jibx.runtime;resolution:=optional;version="[1.2,2
+ )",org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)",org.jib
+ x.util;resolution:=optional;version="[1.2,2)",org.w3c.dom;resolution:=o
+ ptional,org.xmlpull.v1;resolution:=optional
+JibxRepositoryId: sonatype-nexus-snapshots
+JibxRepositoryLocation: http://oss.sonatype.org/content/repositories/sna
+ pshots/
+OBRRepositoryIndex: NONE
+OBRRepositoryIndexURL: http://www.jibx.org/NONE
+Tool: Bnd-1.50.0

@@ -1,0 +1,50 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1335977771067
+Build-Jdk: 1.6.0_29
+Built-By: don
+Bundle-Description: JiBX binding code
+Bundle-DocURL: http://www.jibx.org
+Bundle-License: http://jibx.sourceforge.net/jibx-license.html
+Bundle-ManifestVersion: 2
+Bundle-Name: jibx-bind - JiBX binding
+Bundle-SymbolicName: jibx-bind
+Bundle-Vendor: jibx.org
+Bundle-Version: 1.2.4.SNAPSHOT
+Class-Path: bcel.jar jibx-run.jar xpp3.jar stax-api.jar wstx-asl.jar
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.jibx.binding.util;uses:="org.jibx.binding.model,org.
+ jibx.runtime";version="1.2.4.SNAPSHOT",org.jibx.binding.classes;uses:="
+ org.apache.bcel.classfile,org.apache.bcel.generic,org.jibx.runtime,org.
+ jibx.util,org.jibx.binding.model,org.apache.bcel.util";version="1.2.4.S
+ NAPSHOT",org.jibx.binding.def;uses:="org.jibx.binding.classes,org.jibx.
+ runtime,org.jibx.runtime.impl,org.jibx.util,org.apache.bcel.classfile,o
+ rg.apache.bcel.generic,org.jibx.binding,org.jibx.binding.util,org.jibx.
+ binding.model";version="1.2.4.SNAPSHOT",org.jibx.binding.model;uses:="o
+ rg.jibx.util,org.jibx.binding.classes,org.jibx.runtime,org.jibx.runtime
+ .impl,org.apache.log4j,org.jibx.binding,org.jibx.binding.util";version=
+ "1.2.4.SNAPSHOT",org.jibx.binding;uses:="org.jibx.binding.util,org.apac
+ he.bcel.classfile,org.jibx.binding.classes,org.apache.bcel.generic,org.
+ jibx.runtime,org.jibx.binding.model,org.jibx.util,org.jibx.binding.def,
+ org.apache.bcel.verifier,javax.xml.parsers,javax.xml.transform.dom,org.
+ w3c.dom,javax.xml.transform,javax.xml.transform.stream,org.jibx.runtime
+ .impl";version="1.2.4.SNAPSHOT",org.jibx.binding.ant;uses:="org.jibx.ru
+ ntime,org.apache.tools.ant.types,org.jibx.binding,org.apache.tools.ant"
+ ;version="1.2.4.SNAPSHOT",org.jibx.util;uses:="org.jibx.binding.classes
+ ,org.jibx.runtime,org.apache.log4j";version="1.2.4.SNAPSHOT"
+Import-Package: javax.xml.parsers;resolution:=optional,javax.xml.transfo
+ rm;resolution:=optional,javax.xml.transform.dom;resolution:=optional,ja
+ vax.xml.transform.stream;resolution:=optional,org.apache.bcel.classfile
+ ;resolution:=optional,org.apache.bcel.generic;resolution:=optional,org.
+ apache.bcel.util;resolution:=optional,org.apache.bcel.verifier;resoluti
+ on:=optional,org.apache.log4j;resolution:=optional,org.apache.tools.ant
+ ;resolution:=optional,org.apache.tools.ant.types;resolution:=optional,o
+ rg.jibx.runtime;resolution:=optional;version="[1.2,2)",org.jibx.runtime
+ .impl;resolution:=optional;version="[1.2,2)",org.w3c.dom;resolution:=op
+ tional
+JibxRepositoryId: sonatype-nexus-snapshots
+JibxRepositoryLocation: http://oss.sonatype.org/content/repositories/sna
+ pshots/
+Main-Class: org.jibx.binding.Compile
+OBRRepositoryIndex: NONE
+OBRRepositoryIndexURL: http://www.jibx.org/NONE
+Tool: Bnd-1.50.0
