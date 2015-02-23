@@ -1,0 +1,3 @@
+GROUP-NAME:/book
+PAIR-NAME:pair-0 GET /book
+GET /book
