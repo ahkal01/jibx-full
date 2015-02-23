@@ -1,0 +1,20 @@
+200
+
+[{
+  "idtype" : "OCLC",
+  "id" : "9506808",
+  "title" : "The Wonderful Wizard of Oz",
+  "author" : "L. Frank Baum"
+},
+{
+  "idtype" : "OCLC",
+  "id" : "236914",
+  "title" : "Kim",
+  "author" : "Rudyard Kipling"
+},
+{
+  "idtype" : "ISBN",
+  "id" : "978-0-670-22026-7",
+  "title" : "Christine",
+  "author" : "Stephen King"
+}]
