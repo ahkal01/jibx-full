@@ -1,0 +1,4 @@
+GROUP-NAME:/v1/pets
+PAIR-NAME:pair-1 GET /v1/pets
+GET /v1/pets?limit={limit} 
+
