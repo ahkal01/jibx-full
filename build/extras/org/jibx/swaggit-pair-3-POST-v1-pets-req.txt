@@ -1,0 +1,5 @@
+GROUP-NAME:/v1/pets
+PAIR-NAME:pair-3 POST /v1/pets
+POST /v1/pets 
+
+UNDEFINED
