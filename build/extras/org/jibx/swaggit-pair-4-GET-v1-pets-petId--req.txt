@@ -1,0 +1,4 @@
+GROUP-NAME:/v1/pets/{petId}
+PAIR-NAME:pair-4 GET /v1/pets/{petId}
+GET /v1/pets/{petId} 
+
